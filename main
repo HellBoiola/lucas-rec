@@ -1,0 +1,43 @@
+package sample;
+
+
+import sample.model.Cavalos;
+import sample.model.Livros;
+import sample.model.Sorvete;
+
+public class Main {
+
+
+
+    public static void main(String[] args){
+        System.out.println("vou tomar sorvete");
+        Sorvete sorvete1 = new Sorvete();
+        sorvete1.setNome("Neve de Cambirela");
+        sorvete1.setSabor("Flocos");
+        sorvete1.setPreco(5.88);
+
+        Sorvete sorvete2 = new Sorvete();
+        sorvete2.setNome("Coco do Nordeste");
+        sorvete2.setSabor("Coco");
+        sorvete2.setPreco(6.70);
+
+        Sorvete sorvete3 = new Sorvete();
+        sorvete3.setNome("Françoa");
+        sorvete3.setSabor("Baquete importado");
+        sorvete3.setPreco(8.25);
+
+        Sorvete sorvete4 = new Sorvete();
+        sorvete4.setNome("Caviar");
+        sorvete4.setSabor("ovas de peixe");
+        sorvete4.setPreco(9.50);
+
+        Sorvete sorvete5 = new Sorvete();
+        sorvete5.setNome("Carvão");
+        sorvete5.setSabor("Carvão Chines");
+        sorvete5.setPreco(6.99);
+
+        System.out.println(sorvete1);
+        System.out.println(sorvete2);
+        System.out.println(sorvete3);
+        System.out.println(sorvete4);
+        System.out.println(sorvete5);
